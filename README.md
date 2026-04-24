@@ -23,23 +23,25 @@ An AI-powered resume analysis tool that parses resumes, generates recruiter-read
 | Visualization | Plotly |
 
 ## 📁 Project Structure
+## 📁 Project Structure
+
+```
 resume_intel_system/
 ├── services/
 │   ├── __init__.py
-│   ├── mindee_service.py       # PDF text extraction (PyMuPDF)
-│   ├── pdf_service.py          # Link extraction from PDF
-│   ├── firecrawl_service.py    # Web scraping via Firecrawl
-│   ├── openrouter_service.py   # AI profile generation
-│   └── transformer_service.py  # Hybrid ATS scoring
-├── utils/                      # Utility helpers
-├── venv/                       # Virtual environment (not pushed)
-├── app_ui.py                   # Streamlit frontend
-├── config.py                   # API key configuration
-├── main.py                     # FastAPI backend
-├── requirements.txt            # Python dependencies
-├── .env                        # API keys (not pushed)
-├── .env.example                # API keys template
+│   ├── mindee_service.py       
+│   ├── pdf_service.py          
+│   ├── firecrawl_service.py    
+│   ├── openrouter_service.py   
+│   └── transformer_service.py  
+├── utils/                      
+├── app_ui.py                   
+├── config.py                   
+├── main.py                     
+├── requirements.txt            
+├── .env.example                
 └── .gitignore
+```
 ## ⚙️ Setup & Installation
 
 ### 1. Clone the repository
